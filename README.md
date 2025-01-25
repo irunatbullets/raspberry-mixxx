@@ -44,3 +44,11 @@ Obviously you'll need to change `murray` to whatever username you chose.
 ## Other software that we will need
 
 `sudo apt install sway blah blah blah`
+
+## The keypad
+
+I'm using `sudo apt install evtest` followed by `sudo evtest` on a weird numberpad I picked up last year. It is basically a circuitboard with mechanical keys and a touchstrip. I'm going to try remapping the bottons for use in mixxx.
+
+So far I have discovers that event 13 is the touchstrip and event 9 is for the keypad itself. Hopefully I can avoid having to care about the Num Lock key, but we'll see...
+
+

@@ -214,11 +214,11 @@ bar {
 
     # When the status_command prints a new line to stdout, swaybar updates.
     # The default just shows the current date and time.
-    status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
+    # status_command while date +'%Y-%m-%d %I:%M:%S %p'; do sleep 1; done
 
     colors {
-        statusline #ffffff
-        background #080808
+        statusline #ffffff00
+        background #08080800
         inactive_workspace #32323200 #32323200 #5c5c5c
     }
 
@@ -228,6 +228,6 @@ bar {
 # Remove title bars
 default_border none
 
-exec mixxx
+# exec mixxx
 
 include /etc/sway/config.d/*

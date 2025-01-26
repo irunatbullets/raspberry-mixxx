@@ -28,6 +28,9 @@ console=serial0,115200 console=tty9 loglevel=3 root=PARTUUID=850b8d9a-02 rootfst
 
 `console=tty9 loglevel=3` sends all of the bootup text to `tty9` leaving `tty1` empty.
 
+I have been having trouble with using my HDMI tv for audio output while I've been testing, I've also decided to install mpv to test video playback from my other computer. Anyway, I had to add `hdmi_force_hotplug=1` to `/boot/firmware/config.txt` I hope this is the solution to my problem.
+
+
 I also made the following changes to prevent text from displaying before the command prompt appears.
 
 ```

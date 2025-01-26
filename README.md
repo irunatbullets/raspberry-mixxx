@@ -45,10 +45,13 @@ Obviously you'll need to change `murray` to whatever username you chose.
 
 `sudo apt install sway blah blah blah`
 
-## The keypad
+## keyd
 
-I'm using `sudo apt install evtest` followed by `sudo evtest` on a weird numberpad I picked up last year. It is basically a circuitboard with mechanical keys and a touchstrip. I'm going to try remapping the bottons for use in mixxx.
+Install and run keyd from its github
 
-So far I have discovers that event 13 is the touchstrip and event 9 is for the keypad itself. Hopefully I can avoid having to care about the Num Lock key, but we'll see...
+Copy default.conf to /etc/keyd/
+
+`sudo keyd reload`
 
 
+add `en_US.kbd.cfg` to `/usr/share/mixxx/keyboard/`

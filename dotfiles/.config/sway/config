@@ -228,6 +228,7 @@ bar {
 # Remove title bars
 default_border none
 
+exec python /home/murray/.config/sway/scripts/inactive-windows-transparency.py --opacity=0.60
 exec mixxx
 
 include /etc/sway/config.d/*

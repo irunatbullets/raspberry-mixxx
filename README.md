@@ -46,7 +46,7 @@ Obviously you'll need to change `murray` to whatever username you chose.
 
 ## Other software that we will need
 
-`sudo apt install sway blah blah blah`
+`sudo apt install sway python3-i3ipc`
 
 ## keyd
 
